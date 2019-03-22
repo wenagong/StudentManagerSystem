@@ -26,3 +26,9 @@ Node *g_pHead = NULL;
 void Welcome();
 //录入学生信息
 void InputStudent();
+//打印学生信息
+void PrintStudent();
+//保存学生信息
+void SaveStudent();
+//读取学生信息
+void ReadStudent();
