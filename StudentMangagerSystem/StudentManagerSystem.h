@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include<conio.h>
 #include<stdlib.h>
-
+#include<string.h>
 //定义一个学生
 typedef struct _Student
 {
@@ -32,3 +32,11 @@ void PrintStudent();
 void SaveStudent();
 //读取学生信息
 void ReadStudent();
+//统计学生人数
+int CountStudent();
+//查找学生信息
+Node*FindStudent();
+//修改学生信息
+void ModifyStudent();
+//删除学生信息
+void DeleteStudent();
